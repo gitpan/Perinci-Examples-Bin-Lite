@@ -1,7 +1,7 @@
 #!perl
 
 our $DATE = '2014-10-24'; # DATE
-our $VERSION = '0.01'; # VERSION
+our $VERSION = '0.02'; # VERSION
 
 use Perinci::CmdLine::Lite;
 Perinci::CmdLine::Lite->new(url=>'/Perinci/Examples/gen_random_bytes')->run;
@@ -21,7 +21,7 @@ peri-eg-gen-random-bytes-lite - Generate random bytes
 
 =head1 VERSION
 
-This document describes version 0.01 of peri-eg-gen-random-bytes-lite (from Perl distribution Perinci-Examples-Bin-Lite), released on 2014-10-24.
+This document describes version 0.02 of peri-eg-gen-random-bytes-lite (from Perl distribution Perinci-Examples-Bin-Lite), released on 2014-10-24.
 
 =head1 SYNOPSIS
 

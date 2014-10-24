@@ -25,7 +25,7 @@ resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Perinci-Examples-Bin-Lite
   homepage: https://metacpan.org/release/Perinci-Examples-Bin-Lite
   repository: git://github.com/perlancar/perl-Perinci-Examples-Bin-Lite.git
-version: '0.01'
+version: '0.02'
 x_Dist_Zilla:
   perl:
     version: '5.018002'
