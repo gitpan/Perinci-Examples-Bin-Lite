@@ -4,7 +4,7 @@ use warnings;
 
 # this test was generated with Dist::Zilla::Plugin::Test::Compile 2.040
 
-use Test::More  tests => 5 + ($ENV{AUTHOR_TESTING} ? 1 : 0);
+use Test::More  tests => 2 + ($ENV{AUTHOR_TESTING} ? 1 : 0);
 
 
 
@@ -13,10 +13,7 @@ my @module_files = (
 );
 
 my @scripts = (
-    'bin/peri-eg-lite-complete-fruits',
-    'bin/peri-eg-lite-multi',
-    'bin/peri-eg-lite-single',
-    'bin/peri-eg-lite-test-completion'
+    'bin/peri-eg-gen-random-bytes-lite'
 );
 
 # no fake home requested

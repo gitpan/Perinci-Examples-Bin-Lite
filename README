@@ -1,14 +1,20 @@
 NAME
-    Perinci::Examples::Bin::Lite - Perinci example scripts
+    Perinci::Examples::Bin::Lite - Perinci example CLI scripts (using
+    Perinci::CmdLine::Lite)
 
 VERSION
     This document describes version 0.01 of Perinci::Examples::Bin::Lite
     (from Perl distribution Perinci-Examples-Bin-Lite), released on
-    2014-07-18.
+    2014-10-24.
 
 DESCRIPTION
     This distribution contains example scripts in "bin/" which use
     Perinci::CmdLine::Lite.
+
+SEE ALSO
+    Perinci::Examples::Bin
+
+    Perinci::Examples::Bin::Any
 
 HOMEPAGE
     Please visit the project's homepage at
@@ -16,7 +22,7 @@ HOMEPAGE
 
 SOURCE
     Source repository is at
-    <https://github.com/sharyanto/perl-Perinci-Examples-Bin-Lite>.
+    <https://github.com/perlancar/perl-Perinci-Examples-Bin-Lite>.
 
 BUGS
     Please report any bugs or feature requests on the bugtracker website
@@ -27,10 +33,10 @@ BUGS
     to an existing test-file that illustrates the bug or desired feature.
 
 AUTHOR
-    Steven Haryanto <stevenharyanto@gmail.com>
+    perlancar <perlancar@cpan.org>
 
 COPYRIGHT AND LICENSE
-    This software is copyright (c) 2014 by Steven Haryanto.
+    This software is copyright (c) 2014 by perlancar@cpan.org.
 
     This is free software; you can redistribute it and/or modify it under
     the same terms as the Perl 5 programming language system itself.

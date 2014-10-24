@@ -6,10 +6,7 @@ META.json
 META.yml
 Makefile.PL
 README
-bin/peri-eg-lite-complete-fruits
-bin/peri-eg-lite-multi
-bin/peri-eg-lite-single
-bin/peri-eg-lite-test-completion
+bin/peri-eg-gen-random-bytes-lite
 dist.ini
 lib/Perinci/Examples/Bin/Lite.pm
 t/00-compile.t

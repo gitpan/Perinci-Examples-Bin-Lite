@@ -1,12 +1,12 @@
 package Perinci::Examples::Bin::Lite;
 
-our $DATE = '2014-07-18'; # DATE
+our $DATE = '2014-10-24'; # DATE
 our $VERSION = '0.01'; # VERSION
 
 use 5.010001;
 
 1;
-# ABSTRACT: Perinci example scripts
+# ABSTRACT: Perinci example CLI scripts (using Perinci::CmdLine::Lite)
 
 __END__
 
@@ -16,16 +16,22 @@ __END__
 
 =head1 NAME
 
-Perinci::Examples::Bin::Lite - Perinci example scripts
+Perinci::Examples::Bin::Lite - Perinci example CLI scripts (using Perinci::CmdLine::Lite)
 
 =head1 VERSION
 
-This document describes version 0.01 of Perinci::Examples::Bin::Lite (from Perl distribution Perinci-Examples-Bin-Lite), released on 2014-07-18.
+This document describes version 0.01 of Perinci::Examples::Bin::Lite (from Perl distribution Perinci-Examples-Bin-Lite), released on 2014-10-24.
 
 =head1 DESCRIPTION
 
 This distribution contains example scripts in C<bin/> which use
 L<Perinci::CmdLine::Lite>.
+
+=head1 SEE ALSO
+
+L<Perinci::Examples::Bin>
+
+L<Perinci::Examples::Bin::Any>
 
 =head1 HOMEPAGE
 
@@ -33,7 +39,7 @@ Please visit the project's homepage at L<https://metacpan.org/release/Perinci-Ex
 
 =head1 SOURCE
 
-Source repository is at L<https://github.com/sharyanto/perl-Perinci-Examples-Bin-Lite>.
+Source repository is at L<https://github.com/perlancar/perl-Perinci-Examples-Bin-Lite>.
 
 =head1 BUGS
 
@@ -45,11 +51,11 @@ feature.
 
 =head1 AUTHOR
 
-Steven Haryanto <stevenharyanto@gmail.com>
+perlancar <perlancar@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2014 by Steven Haryanto.
+This software is copyright (c) 2014 by perlancar@cpan.org.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

@@ -10,24 +10,21 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "Perinci example scripts",
-  "AUTHOR" => "Steven Haryanto <stevenharyanto\@gmail.com>",
+  "ABSTRACT" => "Perinci example CLI scripts (using Perinci::CmdLine::Lite)",
+  "AUTHOR" => "perlancar <perlancar\@cpan.org>",
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30"
   },
   "DISTNAME" => "Perinci-Examples-Bin-Lite",
   "EXE_FILES" => [
-    "bin/peri-eg-lite-complete-fruits",
-    "bin/peri-eg-lite-multi",
-    "bin/peri-eg-lite-test-completion",
-    "bin/peri-eg-lite-single"
+    "bin/peri-eg-gen-random-bytes-lite"
   ],
   "LICENSE" => "perl",
   "NAME" => "Perinci::Examples::Bin::Lite",
   "PREREQ_PM" => {
-    "Perinci::CmdLine::Lite" => 0,
-    "Perinci::Examples" => "0.24",
-    "Rinci" => "v1.1.32"
+    "Perinci::CmdLine::Lite" => "0.34",
+    "Perinci::Examples" => "0.36",
+    "Rinci" => "v1.1.62"
   },
   "TEST_REQUIRES" => {
     "File::Spec" => 0,
@@ -46,9 +43,9 @@ my %FallbackPrereqs = (
   "File::Spec" => 0,
   "IO::Handle" => 0,
   "IPC::Open3" => 0,
-  "Perinci::CmdLine::Lite" => 0,
-  "Perinci::Examples" => "0.24",
-  "Rinci" => "v1.1.32",
+  "Perinci::CmdLine::Lite" => "0.34",
+  "Perinci::Examples" => "0.36",
+  "Rinci" => "v1.1.62",
   "Test::More" => 0
 );
 
