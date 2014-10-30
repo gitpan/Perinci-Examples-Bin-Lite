@@ -17,15 +17,15 @@ meta-spec:
   version: '1.4'
 name: Perinci-Examples-Bin-Lite
 requires:
-  Perinci::CmdLine::Lite: '0.34'
-  Perinci::Examples: '0.36'
+  Perinci::CmdLine::Lite: '0.41'
+  Perinci::Examples: '0.39'
   Rinci: v1.1.62
   perl: '5.010001'
 resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Perinci-Examples-Bin-Lite
   homepage: https://metacpan.org/release/Perinci-Examples-Bin-Lite
   repository: git://github.com/perlancar/perl-Perinci-Examples-Bin-Lite.git
-version: '0.02'
+version: '0.03'
 x_Dist_Zilla:
   perl:
     version: '5.018002'
@@ -218,7 +218,7 @@ x_Dist_Zilla:
     -
       class: Dist::Zilla::Plugin::Rinci::Validate
       name: '@Author::PERLANCAR/Rinci::Validate'
-      version: '0.18'
+      version: '0.19'
     -
       class: Dist::Zilla::Plugin::SetScriptShebang
       name: '@Author::PERLANCAR/SetScriptShebang'

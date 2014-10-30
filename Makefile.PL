@@ -17,13 +17,16 @@ my %WriteMakefileArgs = (
   },
   "DISTNAME" => "Perinci-Examples-Bin-Lite",
   "EXE_FILES" => [
+    "bin/peri-eg-append-file-lite",
+    "bin/peri-eg-read-file-lite",
+    "bin/peri-eg-write-file-lite",
     "bin/peri-eg-gen-random-bytes-lite"
   ],
   "LICENSE" => "perl",
   "NAME" => "Perinci::Examples::Bin::Lite",
   "PREREQ_PM" => {
-    "Perinci::CmdLine::Lite" => "0.34",
-    "Perinci::Examples" => "0.36",
+    "Perinci::CmdLine::Lite" => "0.41",
+    "Perinci::Examples" => "0.39",
     "Rinci" => "v1.1.62"
   },
   "TEST_REQUIRES" => {
@@ -32,7 +35,7 @@ my %WriteMakefileArgs = (
     "IPC::Open3" => 0,
     "Test::More" => 0
   },
-  "VERSION" => "0.02",
+  "VERSION" => "0.03",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -43,8 +46,8 @@ my %FallbackPrereqs = (
   "File::Spec" => 0,
   "IO::Handle" => 0,
   "IPC::Open3" => 0,
-  "Perinci::CmdLine::Lite" => "0.34",
-  "Perinci::Examples" => "0.36",
+  "Perinci::CmdLine::Lite" => "0.41",
+  "Perinci::Examples" => "0.39",
   "Rinci" => "v1.1.62",
   "Test::More" => 0
 );

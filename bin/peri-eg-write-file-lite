@@ -4,10 +4,10 @@ our $DATE = '2014-10-30'; # DATE
 our $VERSION = '0.03'; # VERSION
 
 use Perinci::CmdLine::Lite;
-Perinci::CmdLine::Lite->new(url=>'/Perinci/Examples/gen_random_bytes')->run;
+Perinci::CmdLine::Lite->new(url=>'/Perinci/Examples/FileStream/write_file')->run;
 
-# ABSTRACT: Generate random bytes
-# PODNAME: peri-eg-gen-random-bytes-lite
+# ABSTRACT: Write file
+# PODNAME: peri-eg-write-file-lite
 
 __END__
 
@@ -17,11 +17,11 @@ __END__
 
 =head1 NAME
 
-peri-eg-gen-random-bytes-lite - Generate random bytes
+peri-eg-write-file-lite - Write file
 
 =head1 VERSION
 
-This document describes version 0.03 of peri-eg-gen-random-bytes-lite (from Perl distribution Perinci-Examples-Bin-Lite), released on 2014-10-30.
+This document describes version 0.03 of peri-eg-write-file-lite (from Perl distribution Perinci-Examples-Bin-Lite), released on 2014-10-30.
 
 =head1 SYNOPSIS
 

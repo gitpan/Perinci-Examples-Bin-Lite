@@ -1,7 +1,7 @@
 package Perinci::Examples::Bin::Lite;
 
-our $DATE = '2014-10-24'; # DATE
-our $VERSION = '0.02'; # VERSION
+our $DATE = '2014-10-30'; # DATE
+our $VERSION = '0.03'; # VERSION
 
 use 5.010001;
 
@@ -20,7 +20,7 @@ Perinci::Examples::Bin::Lite - Perinci example CLI scripts (using Perinci::CmdLi
 
 =head1 VERSION
 
-This document describes version 0.02 of Perinci::Examples::Bin::Lite (from Perl distribution Perinci-Examples-Bin-Lite), released on 2014-10-24.
+This document describes version 0.03 of Perinci::Examples::Bin::Lite (from Perl distribution Perinci-Examples-Bin-Lite), released on 2014-10-30.
 
 =head1 DESCRIPTION
 

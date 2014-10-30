@@ -6,7 +6,10 @@ META.json
 META.yml
 Makefile.PL
 README
+bin/peri-eg-append-file-lite
 bin/peri-eg-gen-random-bytes-lite
+bin/peri-eg-read-file-lite
+bin/peri-eg-write-file-lite
 dist.ini
 lib/Perinci/Examples/Bin/Lite.pm
 t/00-compile.t
