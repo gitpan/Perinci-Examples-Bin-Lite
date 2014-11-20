@@ -7,6 +7,7 @@ META.yml
 Makefile.PL
 README
 bin/peri-eg-append-file-lite
+bin/peri-eg-demo-cli-opts-lite
 bin/peri-eg-gen-random-bytes-lite
 bin/peri-eg-read-file-lite
 bin/peri-eg-write-file-lite

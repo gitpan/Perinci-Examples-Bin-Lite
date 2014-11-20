@@ -29,7 +29,7 @@
       },
       "runtime" : {
          "requires" : {
-            "Perinci::CmdLine::Lite" : "0.41",
+            "Perinci::CmdLine::Lite" : "0",
             "Perinci::Examples" : "0.39",
             "Rinci" : "v1.1.62",
             "perl" : "5.010001"
@@ -56,12 +56,17 @@
          "web" : "https://github.com/perlancar/perl-Perinci-Examples-Bin-Lite"
       }
    },
-   "version" : "0.03",
+   "version" : "0.04",
    "x_Dist_Zilla" : {
       "perl" : {
          "version" : "5.018002"
       },
       "plugins" : [
+         {
+            "class" : "Dist::Zilla::Plugin::Rinci::ScriptFromFunc",
+            "name" : "Rinci::ScriptFromFunc",
+            "version" : "0.02"
+         },
          {
             "class" : "Dist::Zilla::Plugin::GatherDir",
             "name" : "@Author::PERLANCAR/@Filter/GatherDir",
@@ -163,6 +168,11 @@
             "version" : "5.019"
          },
          {
+            "class" : "Dist::Zilla::Plugin::Rinci::InstallCompletion",
+            "name" : "@Author::PERLANCAR/Rinci::InstallCompletion",
+            "version" : "0.03"
+         },
+         {
             "class" : "Dist::Zilla::Plugin::OurDate",
             "name" : "@Author::PERLANCAR/OurDate",
             "version" : "0.01"
@@ -245,6 +255,16 @@
                         "class" : "Pod::Weaver::Section::Region",
                         "name" : "@Author::PERLANCAR/postlude",
                         "version" : "4.006"
+                     },
+                     {
+                        "class" : "Pod::Weaver::Section::BashCompletion::GetoptLongComplete",
+                        "name" : "@Author::PERLANCAR/BashCompletion::GetoptLongComplete",
+                        "version" : "0.01"
+                     },
+                     {
+                        "class" : "Pod::Weaver::Section::BashCompletion::PerinciCmdLine",
+                        "name" : "@Author::PERLANCAR/BashCompletion::PerinciCmdLine",
+                        "version" : "0.03"
                      },
                      {
                         "class" : "Pod::Weaver::Section::Homepage::DefaultCPAN",

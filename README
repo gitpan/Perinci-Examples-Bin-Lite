@@ -3,9 +3,9 @@ NAME
     Perinci::CmdLine::Lite)
 
 VERSION
-    This document describes version 0.03 of Perinci::Examples::Bin::Lite
+    This document describes version 0.04 of Perinci::Examples::Bin::Lite
     (from Perl distribution Perinci-Examples-Bin-Lite), released on
-    2014-10-30.
+    2014-11-20.
 
 DESCRIPTION
     This distribution contains example scripts in "bin/" which use

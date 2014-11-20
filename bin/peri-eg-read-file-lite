@@ -1,12 +1,22 @@
 #!perl
 
-our $DATE = '2014-10-30'; # DATE
-our $VERSION = '0.03'; # VERSION
+# Note: This script is a CLI interface to Riap function /Perinci/Examples/FileStream/read_file
+# and generated automatically using Dist::Zilla::Plugin::Rinci::ScriptFromFunc version 0.02
+
+our $DATE = '2014-11-20'; # DATE
+our $VERSION = '0.04'; # VERSION
+
+use 5.010001;
+use strict;
+use warnings;
 
 use Perinci::CmdLine::Lite;
-Perinci::CmdLine::Lite->new(url=>'/Perinci/Examples/FileStream/read_file')->run;
 
-# ABSTRACT: Read file
+Perinci::CmdLine::Lite->new(
+    url => "/Perinci/Examples/FileStream/read_file",
+)->run;
+
+# ABSTRACT: peri-eg-read-file-lite
 # PODNAME: peri-eg-read-file-lite
 
 __END__
@@ -17,13 +27,41 @@ __END__
 
 =head1 NAME
 
-peri-eg-read-file-lite - Read file
+peri-eg-read-file-lite - peri-eg-read-file-lite
 
 =head1 VERSION
 
-This document describes version 0.03 of peri-eg-read-file-lite (from Perl distribution Perinci-Examples-Bin-Lite), released on 2014-10-30.
+This document describes version 0.04 of peri-eg-read-file-lite (from Perl distribution Perinci-Examples-Bin-Lite), released on 2014-11-20.
 
 =head1 SYNOPSIS
+
+Usage:
+
+ % peri-eg-read-file-lite
+
+Examples:
+
+ TODO
+
+To see all options:
+
+ % peri-eg-read-file-lite --help
+
+=head1 OPTIONS
+
+ TODO
+
+=head1 BASH COMPLETION
+
+This script has bash completion capability.
+
+To activate bash completion for this script, put:
+
+ complete -C peri-eg-read-file-lite peri-eg-read-file-lite
+
+in your bash startup (e.g. C<~/.bashrc>). Your next shell session will then recognize tab completion for the command. Or, you can also directly execute the line above in your shell to activate immediately.
+
+You can also install L<App::BashCompletionProg> which makes it easy to add completion for Perinci::CmdLine-based scripts. After you install the module and put C<. ~/.bash-complete-prog> (or C<. /etc/bash-complete-prog>), you can just run C<bash-completion-prog> and the C<complete> command will be added to your C<~/.bash-completion-prog>. Your next shell session will then recognize tab completion for the command.
 
 =head1 HOMEPAGE
 

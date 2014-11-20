@@ -1,6 +1,6 @@
 #!perl
 
-# Note: This script is a CLI interface to Riap function /Perinci/Examples/FileStream/write_file
+# Note: This script is a CLI interface to Riap function /Perinci/Examples/CLI/demo_cli_opts
 # and generated automatically using Dist::Zilla::Plugin::Rinci::ScriptFromFunc version 0.02
 
 our $DATE = '2014-11-20'; # DATE
@@ -13,11 +13,11 @@ use warnings;
 use Perinci::CmdLine::Lite;
 
 Perinci::CmdLine::Lite->new(
-    url => "/Perinci/Examples/FileStream/write_file",
+    url => "/Perinci/Examples/CLI/demo_cli_opts",
 )->run;
 
-# ABSTRACT: peri-eg-write-file-lite
-# PODNAME: peri-eg-write-file-lite
+# ABSTRACT: Summary for `demo_cli_opts`
+# PODNAME: peri-eg-demo-cli-opts-lite
 
 __END__
 
@@ -27,17 +27,17 @@ __END__
 
 =head1 NAME
 
-peri-eg-write-file-lite - peri-eg-write-file-lite
+peri-eg-demo-cli-opts-lite - Summary for `demo_cli_opts`
 
 =head1 VERSION
 
-This document describes version 0.04 of peri-eg-write-file-lite (from Perl distribution Perinci-Examples-Bin-Lite), released on 2014-11-20.
+This document describes version 0.04 of peri-eg-demo-cli-opts-lite (from Perl distribution Perinci-Examples-Bin-Lite), released on 2014-11-20.
 
 =head1 SYNOPSIS
 
 Usage:
 
- % peri-eg-write-file-lite
+ % peri-eg-demo-cli-opts-lite
 
 Examples:
 
@@ -45,11 +45,16 @@ Examples:
 
 To see all options:
 
- % peri-eg-write-file-lite --help
+ % peri-eg-demo-cli-opts-lite --help
 
 =head1 DESCRIPTION
 
-Overwrites existing file.
+Description for C<demo_cli_opts>.
+
+This is another paragraph from the description. Description by default is
+assumed to be marked up in I<Markdown> (currently referring to CommonMark).
+
+ This paragraph should be set in verbatim.
 
 =head1 OPTIONS
 
@@ -61,7 +66,7 @@ This script has bash completion capability.
 
 To activate bash completion for this script, put:
 
- complete -C peri-eg-write-file-lite peri-eg-write-file-lite
+ complete -C peri-eg-demo-cli-opts-lite peri-eg-demo-cli-opts-lite
 
 in your bash startup (e.g. C<~/.bashrc>). Your next shell session will then recognize tab completion for the command. Or, you can also directly execute the line above in your shell to activate immediately.
 
